@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC,CACG,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CAEd,CAAC,CACG,eAAe,CAAE,IAAI,CAGzB,EAAE,CACE,UAAU,CAAE,IAAI,CCTpB,CAAC,CACG,WAAW,CAAE,UAAU",
+"sources": ["../sass/_base/_reset.scss","../sass/_base/_Typography.scss"],
+"names": [],
+"file": "style.css"
+}
