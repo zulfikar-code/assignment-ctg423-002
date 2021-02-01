@@ -1,3 +1,22 @@
 *{
-    font-family: sans-serif;
+    font-family: Arial,sans-serif;
+}
+.nav-hm{
+    ul{
+        li{
+            a{
+                font-size: 14px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #fff;
+                
+                &.active{
+
+                    color: rgb(59, 151, 255);
+
+                }
+            }
+        }
+    }
+
 }
