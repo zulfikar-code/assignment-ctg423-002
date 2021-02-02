@@ -22,8 +22,48 @@
         font-size: 50px;
         padding-bottom: 10px ;
     }
+    
+
+}
+.services{
+    width: auto;
+    background-color: rgb(0,136,204);
+    padding: 50px 0px;
+    h2,p{
+        justify-content: center;
+        text-align: center;
+        color: rgb(233, 233, 233);
+        margin-bottom: 10px;
+    }
     p{
-        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .services-items{
+        margin-top: 20px;
+        width: 350px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-content: left;
+        .services-icon{
+           font-size: 30px;
+           color:rgb(233, 233, 233); 
+          
+        }        
+    }
+    .services-text{
+        margin-left: 20px;
+        color: rgb(233, 233, 233) ;
+        h3{
+            
+        }
+        h3,p{
+           text-align: left;
+           line-height: 30px;
+       }
+       
     }
 
 }
