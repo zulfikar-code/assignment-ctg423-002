@@ -37,34 +37,82 @@
     }
     p{
         text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    #container-services{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
     }
     .services-items{
         margin-top: 20px;
-        width: 350px;
+        width: 300px;
         height: 130px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: start;
         align-content: left;
+        margin: 20px 10px;
+       
         .services-icon{
            font-size: 30px;
-           color:rgb(233, 233, 233); 
+           color:rgb(216, 216, 216); 
           
         }        
     }
     .services-text{
+        
         margin-left: 20px;
         color: rgb(233, 233, 233) ;
+        box-sizing: border-box;
+        
         h3{
+            font-weight: 600;
+            font-size: 16px;
             
         }
         h3,p{
            text-align: left;
-           line-height: 30px;
+           line-height: 26px;
+           
+           
+       }
+       p{
+        font-size: 14px;
+        text-transform: none;
        }
        
     }
 
 }
 
+
+// Projects Style 
+.projects{
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0px;
+    h2,p,h6{
+        justify-content: center;
+        text-align: center;
+        color: rgb(29, 29, 29);
+        margin-bottom: 10px;
+    }
+    p{
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        color: rgb(87, 87, 87);
+    }
+    h6{
+        font-size: 14px;
+        text-transform: none;
+        font-weight: normal;
+        margin: 0px 400px;
+        color: rgb(95, 95, 95);
+
+        
+    }
+}
